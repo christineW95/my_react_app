@@ -19,12 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-aiGotApp-aiGotAppTests.xcscheme</key>
+		<key>Pods-AiGot-AiGotTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-aiGotApp.xcscheme</key>
+		<key>Pods-AiGot.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
