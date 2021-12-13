@@ -1,13 +1,25 @@
-import { Text, useColorScheme } from 'react-native';
+import React, { createContext } from 'react';
 
-const Label = ({ ...props }) => {
-    const theme = useColorScheme();
-    return (
-        <Text
-            style={[theme === 'dark' ? style.dark : style.light]}
-            numberOfLines={2}>
-            {props.label}
-        </Text>
-    );
-};
-export default Label;
+import lightTheme from './light';
+import darkTheme from './dark';
+export const Context = createContext({});
+
+class ThemeProvider extends React.Component {
+    state = {
+        theme: lightTheme,
+        updateTheme: theme => {
+            this.setState({ theme: theme });
+        },
+    };
+
+    render() {
+        const { theme } = this.state;
+        return (
+            <Context.Provider value={this.state} theme={theme}>
+                {this.props.children}
+            </Context.Provider>
+        );
+    }
+}
+
+export default ThemeProvider;
