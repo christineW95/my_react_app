@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -7,106 +8,67 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { ScrollView, View } from 'react-native';
+import CollapsibleTile from './app/components/collapsibleTile';
+import { List } from 'react-native-paper';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import Header from './app/components/header';
+import Multicheckbox from './app/components/multicheckbox';
+import MultiSliderBar from './app/components/muiltislider';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section = ({children, title}): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () => {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
-
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
+    <SafeAreaView style={{ backgroundColor: '#1E7ED7' }}>
+      <ScrollView>
         <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
+
+        <List.Section>
+          <CollapsibleTile>
+            <View
+              style={{
+                flexDirection: 'row',
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}>
+              <List.Item title="First item" style={{ flex: 1 }} />
+              <List.Item title="Second item" style={{ flex: 1 }} />
+            </View>
+          </CollapsibleTile>
+          <CollapsibleTile >
+            <MultiSliderBar />
+          </CollapsibleTile>
+          <CollapsibleTile >
+            <Multicheckbox />
+          </CollapsibleTile>
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile>
+            <View
+              style={{
+                flexDirection: 'row',
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}>
+              <List.Item title="First item" style={{ flex: 1 }} />
+              <List.Item title="Second item" style={{ flex: 1 }} />
+            </View>
+          </CollapsibleTile>
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+          <CollapsibleTile />
+        </List.Section>
       </ScrollView>
     </SafeAreaView>
+
   );
 };
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;
