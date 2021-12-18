@@ -1,5 +1,7 @@
 dependencies: \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/Pods-my_react_app/Pods-my_react_app-dummy.m \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React/React-Core.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/kcdata.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/uuid.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/netinet6.modulemap \

@@ -1,0 +1,38 @@
+dependencies: \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/ios/native/NativeMethods.mm \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/RNReanimated/RNReanimated-prefix.pch \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/ios/native/NativeMethods.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTUIManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcherProtocol.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTJSInvokerModule.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-gesture-handler/ios/RNGestureHandlerStateManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTScrollView.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAutoInsetsProtocol.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTScrollableProtocol.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTView.h

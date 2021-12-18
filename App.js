@@ -1,6 +1,8 @@
 
 
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -8,13 +10,16 @@ import {
 } from 'react-native';
 
 import Home from './app/screens/Home';
+import HomeStackNavigator from './app/navigation/stack';
 
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <SafeAreaView style={isDarkMode ? styles.container : {}}>
-      <Home />
+      <NavigationContainer>
+        <HomeStackNavigator />
+      </NavigationContainer>
     </SafeAreaView>
   );
 };

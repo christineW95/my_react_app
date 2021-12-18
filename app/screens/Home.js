@@ -37,9 +37,9 @@ const Home = () => {
     const addTask = (task) => {
         // TaskAPIs.getAllTasks(Config.config.base_url + Config.config.add_task)
 
-        // if (task == null) return;
-        // setTasks([...tasks, task]);
-        // Keyboard.dismiss();
+        if (task == null) return;
+        setTasks([...tasks, task]);
+        Keyboard.dismiss();
         // UserAPIs.createUser(Config.config.base_url + Config.config.user_register, {
         //     "name": "Muhammad Nur Ali",
         //     "email": "muh.ddddddddddddddddte@gmail.com",

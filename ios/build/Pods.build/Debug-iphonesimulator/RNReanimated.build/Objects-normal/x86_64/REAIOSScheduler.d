@@ -1,0 +1,47 @@
+dependencies: \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/ios/native/REAIOSScheduler.mm \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/RNReanimated/RNReanimated-prefix.pch \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/ios/native/REAIOSScheduler.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTUIManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcherProtocol.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTJSInvokerModule.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-callinvoker/ReactCommon/CallInvoker.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/Tools/Scheduler.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SharedItems/RuntimeManager.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SpecTools/ErrorHandler.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/Tools/JSIStoreValueUser.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/Tools/RuntimeDecorator.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/LayoutAnimations/LayoutAnimationsProxy.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/Tools/PlatformDepMethodsHolder.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SharedItems/ShareableValue.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SharedItems/HostFunctionHandler.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SharedItems/SharedParent.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/SharedItems/ValueWrapper.h \
+  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native-reanimated/Common/cpp/headers/Registries/WorkletsCache.h
