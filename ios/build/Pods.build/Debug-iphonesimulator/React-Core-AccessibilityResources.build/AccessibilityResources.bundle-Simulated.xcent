@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>69L9RW64J9.org.cocoapods.AccessibilityResources</string>
+	<string>79KJ4KUCY3.org.cocoapods.AccessibilityResources</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>69L9RW64J9.org.cocoapods.AccessibilityResources</string>
+		<string>79KJ4KUCY3.org.cocoapods.AccessibilityResources</string>
 	</array>
 </dict>
 </plist>

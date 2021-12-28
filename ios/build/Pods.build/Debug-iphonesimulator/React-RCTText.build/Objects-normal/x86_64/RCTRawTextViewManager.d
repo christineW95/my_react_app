@@ -1,8 +1,21 @@
 dependencies: \
   /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/Libraries/Text/RawText/RCTRawTextViewManager.m \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
-  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
-  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/darwin_cdefs.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach-o/dyld.modulemap \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTRawTextViewManager.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
@@ -26,6 +39,8 @@ dependencies: \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/Yoga-umbrella.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React/React-Core.modulemap \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React/React-Core.modulemap \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcherProtocol.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
   /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
