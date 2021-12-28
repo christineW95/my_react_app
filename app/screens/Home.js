@@ -24,6 +24,7 @@ import {
 import { TodoItem } from '../components/TodoItem';
 import TextInputTask from '../components/TextInputTask';
 import * as UserAPIs from '../services/UserAPIs'
+import * as TaskAPIs from '../services/TaskAPIs'
 import * as Config from '../services/config'
 
 const Home = () => {
@@ -34,15 +35,21 @@ const Home = () => {
     };
     const [tasks, setTasks] = useState([]);
     const addTask = (task) => {
-        if (task == null) return;
-        setTasks([...tasks, task]);
-        Keyboard.dismiss();
+        // TaskAPIs.getAllTasks(Config.config.base_url + Config.config.add_task)
+
+        // if (task == null) return;
+        // setTasks([...tasks, task]);
+        // Keyboard.dismiss();
         // UserAPIs.createUser(Config.config.base_url + Config.config.user_register, {
         //     "name": "Muhammad Nur Ali",
-        //     "email": "muh.tedddst@gmail.com",
+        //     "email": "muh.ddddddddddddddddte@gmail.com",
         //     "password": "12345678",
         //     "age": 20
         // })
+        // TaskAPIs.editTask(Config.config.base_url + Config.config.add_task + '/61cb45d556ddc90017809d68', {
+        //     "completed": true
+        // })
+        // TaskAPIs.deleteTask(Config.config.base_url + Config.config.add_task + '/61cb45d556ddc90017809d68')
     }
 
     const deleteTask = (deleteIndex) => {

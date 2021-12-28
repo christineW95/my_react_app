@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 import axios from "axios";
-import { config, headers } from "./config";
-const axiosInstance = axios.create({ baseURL: config.base_url });
+import { headers } from "./config";
 
 const getUser = async (url = '', body = {}) => {
     var data = JSON.stringify(body);
@@ -21,23 +20,21 @@ const getUser = async (url = '', body = {}) => {
 
 };
 async function createUser(url = '', body = {}) {
+
+
     var data = JSON.stringify(body);
     var config = {
         method: 'post',
         url: url,
-        headers,
+        headers: headers,
         data: data
     };
     try {
-        const response = await axios(config)
-        return JSON.stringify(response.data);
-
+        const res = await axios(config);
+        console.log(JSON.stringify(res.data))
+    } catch (Err) {
+        console.log(Err)
     }
-    catch (err) {
-        console.log(err)
-    }
-
-
 }
 
 export {
