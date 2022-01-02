@@ -60,7 +60,7 @@ const Home = () => {
             <View style={styles.container}>
                 <Text style={styles.heading}>TODO LIST</Text>
                 <FlatList
-                    keyExtractor={item => item.id}
+                    keyExtractor={({ item, index }) => index}
                     renderItem={({ item, index }) => {
                         return (
                             <View key={index} style={styles.taskContainer}>
@@ -70,7 +70,7 @@ const Home = () => {
 
                     }}
                     data={tasks}
-                    ListFooterComponent={<TextInputTask addTask={addTask} />}
+                    ListFooterComponent={<TextInputTask onChangeText={addTask} renderRightAccessory={true} />}
                 />
             </View>
         </SafeAreaView>

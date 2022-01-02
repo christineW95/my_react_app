@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import {
     KeyboardAvoidingView,
@@ -8,32 +9,46 @@ import {
     Text,
     Platform,
 } from 'react-native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default TextInputTask = props => {
-    const [task, setTask] = useState();
-
-    const handleAddTask = value => {
-        props.addTask(value);
-        setTask(null);
+    const { onChangeText, renderRightAccessory, placeholder, keyboardType, secureTextEntry, } = props;
+    const [value, setValue] = useState();
+    //to handle add task text input
+    const onChange = value => {
+        onChangeText(value);
+        setValue(null);
     };
 
     return (
         <KeyboardAvoidingView
             behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-            style={styles.container}>
+            style={styles.container}
+        >
             <TextInput
+
                 style={styles.inputField}
-                value={task}
-                onChangeText={text => setTask(text)}
-                placeholder={'Write a task'}
+                value={value}
+                placeholder={placeholder}
+                onChangeText={text => {
+                    setValue(text)
+                    //if there is right accessory then user is adding task so we need to disable native event of text input to be controlled from the button
+                    if (!renderRightAccessory)
+                        onChangeText(text)
+                }}
                 placeholderTextColor={'#fff'}
+                keyboardType={keyboardType}
+                secureTextEntry={secureTextEntry}
             />
-            <TouchableOpacity onPress={() => handleAddTask(task)}>
-                <View style={styles.button}>
-                    <Text>arrow-up</Text>
-                    {/* <MaterialIcons name="keyboard-arrow-up" size={24} color="black" /> */}
-                </View>
-            </TouchableOpacity>
+            {
+                renderRightAccessory ?
+                    <TouchableOpacity onPress={() => onChange(value)}>
+                        <View>
+                            <MaterialCommunityIcons name="arrow-up-bold-circle" size={35} color="white" />
+                        </View>
+                    </TouchableOpacity> : null
+            }
+
         </KeyboardAvoidingView>
     );
 };

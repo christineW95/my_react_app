@@ -7,6 +7,7 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export const TodoItem = (props) => {
     return (<View style={styles.container}>
@@ -16,8 +17,7 @@ export const TodoItem = (props) => {
         <View style={styles.taskContainer}>
             <Text style={styles.task}>{props.task}</Text>
             <TouchableOpacity onPress={() => props.deleteTask()}>
-                <Text style={styles.delete}>Delete</Text>
-                {/* <MaterialIcons style={styles.delete} name="delete" size={18} color='#fff' /> */}
+                <MaterialCommunityIcons style={styles.delete} name="delete" size={18} color='#fff' />
             </TouchableOpacity>
         </View>
     </View>)

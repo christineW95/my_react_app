@@ -40,6 +40,7 @@ const HomeStackNavigator = () => {
                 }} />
 
                 <Stack.Screen name="Home" component={Home} options={{
+                    headerBackVisible: false,
                     headerBackTitleStyle: {
                         color: 'white'
                     }

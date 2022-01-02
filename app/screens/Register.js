@@ -11,40 +11,73 @@ import {
     TouchableOpacity,
     KeyboardAvoidingView,
 } from 'react-native';
+import TextInputTask from '../components/TextInputTask';
 
 const Register = ({ navigation }) => {
     const [userEmail, setUserEmail] = useState('');
     const [userPassword, setUserPassword] = useState('');
+    const [username, setUsername] = useState('');
+    const [userAge, setUserAge] = useState(undefined);
+    const [isValid, setIsValid] = useState(true);
+
+    const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    const validateEmail = (email) => {
+        return emailRegex.test(email);
+    };
+    const validateAge = (age) => {
+        return age > 0;
+    };
+    const onSubmit = () => {
+        if (userEmail && userPassword && username && userAge) {
+            setIsValid(true);
+            navigation.navigate('Home');
+        }
+        else
+            setIsValid(false);
+    }
 
     return (
         <View style={styles.container}>
-            <View style={styles.SectionStyle}>
-                <TextInput
-                    style={styles.inputStyle}
-                    onChangeText={UserEmail => setUserEmail(UserEmail)}
-                    placeholder="Enter Email" //dummy@abc.com
-                    placeholderTextColor="#8b9cb5"
-                    autoCapitalize="none"
-                    keyboardType="email-address"
-                    returnKeyType="next"
-                    underlineColorAndroid="#f000"
-                    blurOnSubmit={false}
-                />
-            </View>
-            <View style={styles.SectionStyle}>
-                <TextInput
-                    style={styles.inputStyle}
-                    onChangeText={UserPassword => setUserPassword(UserPassword)}
-                    placeholder="Enter Password" //12345
-                    placeholderTextColor="#8b9cb5"
-                    keyboardType="default"
-                    onSubmitEditing={Keyboard.dismiss}
-                    blurOnSubmit={false}
-                    secureTextEntry={true}
-                    underlineColorAndroid="#f000"
-                    returnKeyType="next"
-                />
-            </View>
+            <TextInputTask
+                onChangeText={(text) => {
+                    setUsername(text)
+                }}
+                placeholder="Enter Name"
+            />
+            <TextInputTask
+                onChangeText={(UserEmail) => {
+                    if (validateEmail(UserEmail)) {
+                        setUserEmail(UserEmail)
+                        setIsValid(true)
+                    }
+                    else
+                        setIsValid(false)
+                }}
+                placeholder="Enter Email"
+                keyboardType="email-address" />
+
+            <TextInputTask
+                onChangeText={(UserPassword) => setUserPassword(UserPassword)}
+                placeholder="Enter Password"
+                secureTextEntry={true}
+            />
+            <TextInputTask
+                onChangeText={(age) => {
+                    if (validateAge(age)) {
+                        setUserAge(age)
+                        setIsValid(true)
+                    }
+                    else
+                        setIsValid(false)
+                }}
+                placeholder="Enter Age"
+                keyboardType='numeric'
+            />
+            {
+                !isValid ? <Text style={{ color: 'red', padding: 25 }}>
+                    Make sure all fields are filled with the right format!
+                </Text> : null
+            }
             <TouchableOpacity style={{
                 backgroundColor: 'white',
                 margin: 37,
@@ -52,7 +85,10 @@ const Register = ({ navigation }) => {
                 borderColor: '#1E1A3C',
                 padding: 12
             }}
-                onPress={() => navigation.navigate('Home')}>
+                onPress={
+                    onSubmit
+
+                }>
                 <Text style={{
                     color: '#1E1A3C',
                     fontSize: 22,
