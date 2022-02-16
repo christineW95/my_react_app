@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/Work/Development/react-native/my_react_app/ios/AiGot/main.m \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React/React-Core.modulemap \
+  /Volumes/Work/Development/farmacie-specializzate/ios/AiGot/main.m \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/yoga/Yoga.modulemap \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React/React-Core.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/kcdata.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/uuid.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/netinet6.modulemap \
@@ -17,9 +17,9 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/darwin_cdefs.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/mach-o/dyld.modulemap \
-  /Volumes/Work/Development/react-native/my_react_app/ios/AiGot/AppDelegate.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h
+  /Volumes/Work/Development/farmacie-specializzate/ios/AiGot/AppDelegate.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h

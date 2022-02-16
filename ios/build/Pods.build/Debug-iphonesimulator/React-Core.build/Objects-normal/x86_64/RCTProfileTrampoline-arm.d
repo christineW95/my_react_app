@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm.S \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/React/Base/RCTDefines.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/React/Profiler/RCTMacros.h
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm.S \
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/React/Profiler/RCTMacros.h

@@ -1,28 +1,16 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-
-import Home from './app';
 import ThemeProvider from './app/theme/index';
+import HomeStackNavigator from './app/navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
+import MyTabs from './app/navigation/bottomNavigator';
 
 const App = () => {
-
   return (
     <ThemeProvider>
-      <Text>Fucking Hello</Text>
-      <Home />
+      <NavigationContainer>
+        <MyTabs />
+      </NavigationContainer>
     </ThemeProvider>
   );
 };
-
-
-
 export default App;

@@ -1,29 +1,29 @@
 dependencies: \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
-  /Volumes/Work/Development/react-native/my_react_app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/Optional.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/Portability.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/CPortability.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/portability/Config.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/Traits.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/Utility.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/lang/Exception.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/RCT-Folly/folly/CppAttributes.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Volumes/Work/Development/farmacie-specializzate/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/Optional.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/Portability.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/CPortability.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/portability/Config.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/Traits.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/Utility.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/lang/Exception.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/RCT-Folly/folly/CppAttributes.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h

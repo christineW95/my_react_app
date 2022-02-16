@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/React-cxxreact/React-cxxreact-dummy.m \
-  /Volumes/Work/Development/react-native/my_react_app/ios/Pods/Target\ Support\ Files/React-cxxreact/React-cxxreact-prefix.pch \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Target\ Support\ Files/React-cxxreact/React-cxxreact-dummy.m \
+  /Volumes/Work/Development/farmacie-specializzate/ios/Pods/Target\ Support\ Files/React-cxxreact/React-cxxreact-prefix.pch \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/kcdata.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/uuid.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.0.sdk/usr/include/netinet6.modulemap \

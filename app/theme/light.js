@@ -1,12 +1,12 @@
 const light = {
+    dark: false,
     theme: {
-        background: '#ededed',
-        border: '#bdbdbd',
-        backgroundAlt: '#eaeaeb',
-        borderAlt: '#bdbdbd',
-        text: '#171717',
+        brandPrimary: '#054F72',
+        brandSecondary: 'lightgrey',
+        border: 'black',
         card: 'rgb(255, 255, 255)',
         notification: 'rgb(255, 69, 58)',
-    }
-}
-export default light
+        homeBackground: '#F2F2F2',
+    },
+};
+export default light;
